@@ -18,6 +18,9 @@
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+.nav-link.current {
+  color: var(--accent-color);
+}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
@@ -53,6 +56,7 @@
   letter-spacing: 0.06em;
   color: var(--bk-white-color);
   background-color: var(--accent-color);
+  border: none;
 }
 .hero-button:hover {
   cursor: pointer;
@@ -68,6 +72,10 @@
   text-transform: uppercase;
   color: var(--title-text-color);
 }
+.advantage-text {
+  font-size: 14px;
+  line-height: 1.7;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -75,6 +83,7 @@
   text-align: center;
   color: var(--title-text-color);
 }
+
 .team {
   background-color: var(--secondary-bk-color);
 }
@@ -86,6 +95,8 @@
 }
 .member-job {
   text-align: center;
+  font-size: 16px;
+  line-height: 1.19;
 }
 .footer {
   background-color: var(--bk-dark-color);
@@ -112,6 +123,9 @@
 .foot-adr-link:focus {
   color: var(--bk-white-color);
 }
+.foot-adr-link.current {
+  color: var(--bk-white-color);
+}
 /*-------------------------------- Портфоліо ----------------------------*/
 .button {
   font: inherit;
@@ -121,6 +135,7 @@
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: var(--button-bk-color);
+  border: none;
 }
 .button:hover,
 .button:focus {
@@ -128,7 +143,6 @@
   background-color: var(--accent-color);
   cursor: pointer;
 }
-
 .card-name {
   font-weight: 700;
   font-size: 18px;
@@ -138,6 +152,8 @@
 }
 .card-description {
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 .button.primary {
